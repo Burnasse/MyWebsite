@@ -3,12 +3,13 @@ require("dotenv").config({
 });
 
 module.exports = {
+  pathPrefix: "/TommyWebsite",
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
     title: "Tommy Lecourt",
     siteLanguage: "fr",
-    image: "",
-    description: "Tommy Lecourt, developpeur",
+    image: "./src/assets/images/profilPic.jpg",
+    description: "Tommy Lecourt, Student in computer Science",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -16,6 +17,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    
     {
       resolve: "gatsby-plugin-postcss",
       options: {

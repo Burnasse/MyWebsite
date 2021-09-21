@@ -12,11 +12,12 @@ const ProjectCard = ({
   language,
   description,
   url,
+  
   image,
   optionalUrl,
 }: ProjectCardProps) => {
   return (
-    <a href={url} target="_blank" className="flex flex-col bg-gray-100 p-10 m-5 rounded-lg shadow-lg hover:bg-gray-300">
+    <a href={url} target="_blank" className="flex flex-col p-10 m-5 bg-gray-100 rounded-lg shadow-lg hover:bg-blue-300">
       <h1 className="text-xl font-bold">{title}</h1>
       <div className="my-2">{description}</div>
       {language && (
