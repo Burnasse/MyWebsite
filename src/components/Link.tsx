@@ -5,6 +5,7 @@ const Link = ({ href, text, icon, blank }: LinkProps) => {
     <a
       href={href}
       target={blank ? "_blank" : ""}
+      rel="noreferrer"
       className="flex flex-row items-center underline hover:text-blue-300"
     >
       {icon} <span className="pl-1">{text}</span>

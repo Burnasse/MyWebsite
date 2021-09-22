@@ -21,7 +21,6 @@ const ProjectsComponent = () => {
         const result = response.data.filter(({ name }: any) =>
           reposNames.find((element) => element === name)
         );
-        console.log(result);
         setRepos(result);
       });
   };
