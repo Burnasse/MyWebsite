@@ -5,4 +5,4 @@ Made with Gatsby, tailwindsCSS and framer motion and using TypeScript.
 
 ## Link
 
-https://burnasse.github.io/TommyWebsite/
+https://burnasse.github.io/MyWebsite/
