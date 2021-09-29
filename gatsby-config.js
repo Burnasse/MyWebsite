@@ -3,9 +3,9 @@ require("dotenv").config({
 });
 
 module.exports = {
-  pathPrefix: "/TommyWebsite",
+  pathPrefix: "/MyWebsite",
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://burnasse.github.io/MyWebsite/",
     title: "Tommy Lecourt",
     siteLanguage: "fr",
     image: "./src/assets/images/profilPic.jpg",
