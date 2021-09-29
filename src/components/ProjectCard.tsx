@@ -1,10 +1,11 @@
 import React from "react";
-import { SiKotlin, SiJava, SiJavascript } from "react-icons/si";
+import { SiKotlin, SiJava, SiJavascript, SiTypescript } from "react-icons/si";
 
 const icons = {
   kotlin: <SiKotlin />,
   java: <SiJava />,
   javascript: <SiJavascript />,
+  typescript: <SiTypescript />
 };
 
 const ProjectCard = ({

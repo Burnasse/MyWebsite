@@ -7,7 +7,7 @@ import ProjectCard from "../components/ProjectCard";
 const reposNames = [
   "DuelCounter-MobileApplication",
   "ProjetWEB_amu_CollaborativeMusic",
-  "lyky-website",
+  "MyWebsite",
   "KlapeWebsite",
 ];
 
@@ -18,6 +18,7 @@ const ProjectsComponent = () => {
     axios
       .get("https://api.github.com/users/Burnasse/repos")
       .then((response) => {
+        console.log(response)
         const result = response.data.filter(({ name }: any) =>
           reposNames.find((element) => element === name)
         );
