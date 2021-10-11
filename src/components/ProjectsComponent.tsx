@@ -29,7 +29,7 @@ const ProjectsComponent = () => {
   useEffect(() => getRepos(), []);
 
   return (
-    <div className="grid grid-cols-2 break-words">
+    <div className="grid grid-cols-1 md:grid-cols-2 break-words">
       {repos.map((repo: any) => (
         <ProjectCard
           key={repo.name}

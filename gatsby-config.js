@@ -44,7 +44,7 @@ module.exports = {
         localeJsonSourceName: "locale",
         languages: ["fr", "en"],
         defaultLanguage: "fr",
-        siteUrl: "https://www.yourdomain.tld",
+        siteUrl: "https://burnasse.github.io/MyWebsite/",
         i18nextOptions: {
           interpolation: {
             escapeValue: false,
